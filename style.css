@@ -1,0 +1,313 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.wrapper{
+	width: 100%;
+	height: 100%;
+	
+	background-color: #f2f2f2;
+}
+
+.header{
+	width: 100%;
+	height: 85px;
+	overflow: hidden;
+
+}
+
+.logo{
+	width:20%;
+	height: 100px;
+	float: left;
+	border-radius: 5px;
+}
+.logo img{
+	width: 267px;
+}
+
+.name{
+	width:60%;
+	height: 100px;
+	float: left;
+	background-color:#f2ffe6;
+	padding-top:12px; 
+	background-image:url(images/background.jpg);
+}
+.name h1{
+	text-align: center;
+	 color: white;
+}
+.name p{
+    text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+}
+.logo1{
+	width:20%;
+	height: 100px;
+	float: left;
+	border-radius: 5px;
+}
+.logo1 img{
+	width: 267px;
+}
+
+
+.menu{
+	width: 100%;
+	height: 40px;	
+	text-align: center;
+	padding-top: 15px;
+	background-color: #e6ffff;
+}
+.menu a{
+	margin-left: 75px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	background:#e6f7ff;
+	border-radius: 5px;
+	padding-right: 10px;
+}
+
+.body{
+	width: 100%;
+	height:1232px;
+
+}
+.body h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	background-color: #E0FFFF;
+	padding: 15px;
+}
+
+
+.slider{
+	width: 100%;
+	height: 300px;
+	background-image: url(images/slider_back.jpg);
+	padding-top: 100px;
+}
+
+.slider h2{
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Paprika', cursive;
+}
+.slider h3{
+	text-align: center;
+	font-size: 50px;
+	
+}
+.slider p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+.picture{
+	width: 100%;
+	height: 300px;
+	background-color: green;
+	overflow: hidden;
+}
+
+.lap{
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	background-color:black;
+}
+
+.code{
+     width: 33.33%;
+     height: 300px;
+     float: left;
+     background-color:gold;
+}
+
+.top{
+     width: 33.33%;
+     height: 300px;
+     float: left;
+     background-color:coral;
+}
+
+
+
+/**Team section**/
+.team-member{
+	width: 100%;
+	height: 455px;
+	overflow: hidden;
+}
+
+.tamim{
+     width: 33.33%;
+     height: 455px;
+     float: left;
+     background-color:#F0F8FF;
+}
+.tamim img{
+	display: block;
+	margin: auto;
+	padding: 2px;
+	margin-left: 67px;
+	border: 5px solid green;
+	border-radius: 157px;
+}
+.tamim h2{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5px;
+}
+.tamim p{
+	padding: 10px;
+	text-align: justify;
+	margin-left: 45px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mehedy{
+     width: 33.33%;
+     height: 455px;
+     float: left;
+     background-color:#F0FFFF;
+}
+.mehedy img{
+	display: block;
+	margin: auto;
+	padding: 2px;
+	margin-left: 67px;
+	border: 5px solid green;
+	border-radius: 155px;
+}
+.mehedy h2{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5px;
+}
+.mehedy p{
+	padding: 10px;
+	text-align: justify;
+	margin-left: 45px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.arif{
+     width: 33.33%;
+     height: 455px;
+     float: left;
+     background-color:#F8F8FF;
+}
+.arif img{
+	display: block;
+	margin: auto;
+	padding: 2px;
+	margin-left: 67px;
+	border: 5px solid green;
+	border-radius: 157px;
+}
+.arif h2{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5px;
+}
+.arif p{
+	padding: 10px;
+	text-align: justify;
+	margin-left: 45px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+/**Footer section**/
+.footer{
+	width: 100%;
+	height: 300px;
+	
+}
+
+.about{
+	width: 50%;
+	height: 215px;
+	background-color: #e7f5fe;
+	text-align: center;
+	margin-left: 335px;
+	padding: auto;
+}
+.about h1{
+	margin: 0px;
+	text-align: center;
+	font-family: 'Domine', serif;
+}
+.about p{
+	text-align: justify;
+	font-size: 18px;
+	padding: 7px;
+	font-family:serif;
+}
+.about pre{
+	font-size: 18px;
+	font-family: 'Domine', serif;
+}
+
+
+/**link section**/
+.link{
+	width: 100%;
+	height: 90px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	padding-top: 5px;
+}
+.link p{
+	text-align: center;
+	color: #333333;
+}
+.social p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.social{
+	width: 50%;
+	height: 30px;
+	float: left;
+	text-align:center;
+}
+
+.social a{
+	padding-left: 5px;
+	text-decoration: none;
+	text-align: center;
+	
+	color:#333333;
+}
+.description{
+	width: 50%;
+	height: 30px;
+	float: left;
+	margin-top: 27px;
+	text-align: center;
+}
+.description a{
+	padding-left: 7px;
+	text-decoration: none;
+	text-align: center;
+	
+	color:#333333;
+}
+
